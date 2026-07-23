@@ -1,1 +1,1614 @@
+<!-- محتوى مواد شعبة العلوم التجريبية -->
+ <!-- محتوى مادة العلوم الطبيعية -->
+  <div id="science-subject" class="section-page">
+  <h1> مادة العلوم الطبيعية 🧬 </h1>
+  <button class="back-btn" onclick="showSection('science')">
+  ⬅️ العودة إلى شعبة علوم تجريبية
+  </button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('science-science-lessons')">📚 الدروس</button>
+  <button class="menu-btn" onclick="showSection('science-science-summaries')">📝 الملخصات</button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('science-science-exercises')">🎯 التمارين</button>
+  <button class="menu-btn" onclick="showSection('science-science-bac')">📄 مواضيع وحلول البكالوريا</button>
+ </div>
+ <!-- صفحة دروس العلوم الطبيعية  -->
+ <div id="science-science-lessons" class="section-page">
+  <h1> دروس العلوم الطبيعية  </h1>
+  <button class="back-btn" onclick="showSection('science-subject')">
+    ⬅️ العودة إلى مادة العلوم الطبيعية
+  </button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('science-science-lessons-unit1')">آليات تركيب البروتين</button>
+  <button class="menu-btn" onclick="showSection('science-science-lessons-unit2')">العلاقة بين بنية ووظيفة البروتين</button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('science-science-lessons-unit3')">النشاط الإنزيمي للبروتينات</button>
+  <button class="menu-btn" onclick="showSection('science-science-lessons-unit4')">دور البروتينات في الدفاع عن الذات </button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('science-science-lessons-unit5')">دور البروتينات في الاتصال العصبي</button>
+  <button class="menu-btn" onclick="showSection('science-science-lessons-unit6')"> آليات تحويل الطاقة الضوئية إلى طاقة كيميائية كامنة</button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('science-science-lessons-unit7')">آليات تحويل الطاقة الكيميائية الكامنة في الأوساط</button>
+  <button class="menu-btn" onclick="showSection('science-science-lessons-unit8')">البنية الداخلية للكرة الأرضية </button> 
+  <br><br>
+  <button class="menu-btn" onclick="showSection('science-science-lessons-unit9')">النشاط التكتوني والبنيات الجيولوجية المرتبطة به</button> 
+ </div>
+<!-- صفحة دروس آليات تركيب البروتين  -->
+<div id="science-science-lessons-unit1" class="section-page">
+ <h1> دروس آليات تركيب البروتين  </h1>
+ <button class="back-btn" onclick="showSection('science-science-lessons')">
+   ⬅️ العودة إلى دروس العلوم الطبيعية
+ </button>
+ <br><br>
+ 
+ <!-- الأزرار مبرمجة ومربوطة بالدروس الرسمية للأستاذة كتفي شريف زينة بنمط الامتداد المباشر الكامل -->
+ <button class="menu-btn" onclick="watchFullScreen('https://www.youtube.com/watch?v=BuInL34p8zY&t=18241s')">المكتسبات القبلية</button>
+ <button class="menu-btn" onclick="watchFullScreen('https://www.youtube.com/watch?v=t8Osb7LHlbU')">الاستنساخ (ARNm)</button>
+ <br><br>
+ <button class="menu-btn" onclick="watchFullScreen('https://www.youtube.com/watch?v=J_mD6JXXwxA')">الترجمة (ARNt والريبوزومات)</button>
+ <button class="menu-btn" onclick="watchFullScreen('https://www.youtube.com/watch?v=6Swh7g8MOLU')">مقر تركيب البروتين</button> 
+</div>
+
+<script>
+// دالة لتجاوز حظر المتصفحات وتشغيل الفيديو فوراً بملء عرض الشاشة الكامل للمستخدم
+function watchFullScreen(lessonUrl) {
+    // فتح الرابط المباشر للدرس في نافذة منبثقة مستقلة مهيأة بأبعاد الشاشة القصوى للجهاز
+    const screenWidth = window.screen.availWidth;
+    const screenHeight = window.screen.availHeight;
+    
+    window.open(
+        lessonUrl, 
+        '_blank', 
+        `width=${screenWidth},height=${screenHeight},top=0,left=0,fullscreen=yes,scrollbars=yes,resizable=yes`
+    );
+}
+</script>
+<!-- صفحة دروس العلاقة بين بنية ووظيفة البروتين  -->
+   <div id="science-science-lessons-unit2" class="section-page">
+    <h1> دروس العلاقة بين بنية ووظيفة البروتين  </h1>
+    <button class="back-btn" onclick="showSection('science-science-lessons')">
+      ⬅️ العودة إلى دروس العلوم الطبيعية
+    </button>
+    <br><br>
+    <button class="menu-btn">المكتسبـــات القبلية</button>
+    <br><br>
+    <button class="menu-btn">المستويات البنيوية للبروتين</button>
+    <br><br>
+    <button class="menu-btn">الروابط الكيميائية المحافظة على الاستقرار</button>
+   </div>
+   <!-- صفحة دروس النشاط الإنزيمي للبروتينات  -->
+   <div id="science-science-lessons-unit3" class="section-page">
+    <h1> دروس النشاط الإنزيمي للبروتينات  </h1>
+    <button class="back-btn" onclick="showSection('science-science-lessons')">
+      ⬅️ العودة إلى دروس العلوم الطبيعية
+    </button>
+    <br><br>
+    <button class="menu-btn">المكتسبات القبلية</button>
+    <button class="menu-btn">مفهوم الموقع الفعال</button>
+    <br><br>
+    <button class="menu-btn">آلية تأثير الإنزيم (التكامل المحفز)</button>
+    <button class="menu-btn">تأثير الـ (pH) ودرجة الحرارة </button> 
+   </div>
+   <!-- صفحة دروس دور البروتينات في الدفاع عن الذات  -->
+   <div id="science-science-lessons-unit4" class="section-page">
+    <h1> دروس دور البروتينات في الدفاع عن الذات  </h1>
+    <button class="back-btn" onclick="showSection('science-science-lessons')">
+      ⬅️ العودة إلى دروس العلوم الطبيعية
+    </button>
+    <br><br>
+    <button class="menu-btn">المكتسبات القبلية</button>
+    <button class="menu-btn">التمييز بين الذات واللاذات (نظام HLA ونظام ABO و Rh)</button>
+    <br><br>
+    <button class="menu-btn"> الاستجابة المناعية الخلطية (LB والأجسام المضادة)</button>
+    <button class="menu-btn">الاستجابة المناعية الخلوية (LTc) </button> 
+    <br><br>
+    <button class="menu-btn"> دور الخلية المصابة والـ HIV (السيدا)</button>
+   </div>
+   <!--  صفحة دروس دور البروتينات في الاتصال العصبي  -->
+   <div id="science-science-lessons-unit5" class="section-page">
+    <h1> دروس دور البروتينات في الاتصال العصبي  </h1>
+    <button class="back-btn" onclick="showSection('science-science-lessons')">
+      ⬅️ العودة إلى دروس العلوم الطبيعية
+    </button>
+    <br><br>
+    <button class="menu-btn">المكتسبات القبلية</button>
+    <button class="menu-btn">النقل المشبكي (المنبه والمثبط)</button>
+    <br><br>
+    <button class="menu-btn">كمون الراحة وكمون العمل</button>
+    <button class="menu-btn">الإدماج العصبي </button> 
+    <br><br>
+    <button class="menu-btn"> تأثير المخدرات على المشابك</button>
+   </div>
+   <!-- صفحة دروس آليات تحويل الطاقة الضوئية إلى طاقة كيميائية كامنة   -->
+   <div id="science-science-lessons-unit6" class="section-page">
+    <h1> دروس آليات تحويل الطاقة الضوئية إلى طاقة كيميائية كامنة  </h1>
+    <button class="back-btn" onclick="showSection('science-science-lessons')">
+      ⬅️ العودة إلى دروس العلوم الطبيعية
+    </button>
+    <br><br>
+    <button class="menu-btn">المكتسبات القبلية</button>
+    <button class="menu-btn">بنية الصانعة الخلوية</button>
+    <br><br>
+    <button class="menu-btn">تفاعلات المرحلة الكيموضوئية (حلقة الفسفرة التاكسدية)</button>
+    <button class="menu-btn">تفاعلات المرحلة الكيموحيوية (حلقة كالفن لثبيت CO₂) </button> 
+   </div>
+   <!-- صفحة دروس آليات تحويل الطاقة الكيميائية الكامنة في الأوساط   -->
+   <div id="science-science-lessons-unit7" class="section-page">
+    <h1> دروس آليات تحويل الطاقة الكيميائية الكامنة في الأوساط  </h1>
+    <button class="back-btn" onclick="showSection('science-science-lessons')">
+      ⬅️ العودة إلى دروس العلوم الطبيعية
+    </button>
+    <br><br>
+    <button class="menu-btn">المكتسبات القبلية</button>
+    <button class="menu-btn">بنية الميتوكوندري</button>
+    <br><br>
+    <button class="menu-btn">التحلل السكري في الهيولى</button>
+    <button class="menu-btn">حلقة كريبس في الماتريس </button>
+    <br><br>
+    <button class="menu-btn">الفسفرة التاكسدية في الغشاء الداخلي</button>
+    <button class="menu-btn">آلية التخمر الكحولي واللبني </button>
+   </div>
+   <!-- صفحة دروس البنية الداخلية للكرة الأرضية  -->
+   <div id="science-science-lessons-unit8" class="section-page">
+    <h1>دروس البنية الداخلية للكرة الأرضية</h1>
+    <button class="back-btn" onclick="showSection('science-science-lessons')">
+      ⬅️ العودة إلى دروس العلوم الطبيعية
+    </button>
+    <br><br>
+    <button class="menu-btn">المكتسبات القبلية وعلم الزلازل</button>
+    <br><br>
+    <button class="menu-btn">النمذجة الفيزيائية والكيميائية للبنية الداخلية</button>
+   </div>
+   <!-- صفحة دروس النشاط التكتوني والبنيات الجيولوجية المرتبطة به  -->
+   <div id="science-science-lessons-unit9" class="section-page">
+    <h1>دروس النشاط التكتوني والبنيات الجيولوجية المرتبطة به</h1>
+    <button class="back-btn" onclick="showSection('science-science-lessons')">
+      ⬅️ العودة إلى دروس العلوم الطبيعية
+    </button>
+    <br><br>
+    <button class="menu-btn">حركة الصفائح التكتونية (تباعد وتقارب)</button>
+    <button class="menu-btn">البنيات والظواهر الجيولوجية المرتبطة بمناطق الغوص</button>
+    <button class="menu-btn">البنيات والظواهر الجيولوجية المرتبطة بمناطق الاصطدام</button>
+    <button class="menu-btn">ظاهرة التحول الجيولوجي وعلاقته بتكتونية الصفائح</button>
+    <button class="menu-btn">صخرة الغرانيت وعلاقتها بتشكل السلاسل الجبلية</button>
+   </div>
+ <!-- صفحة ملخصات العلوم الطبيعية -->
+ <div id="science-science-summaries" class="section-page">
+  <h1>📝 ملخصات العلوم الطبيعية</h1>
+  <button class="back-btn"onclick="showSection('science-subject')">
+   ⬅️ العودة إلى مادة العلوم الطبيعية
+  </button>
+  <br><br>
+  <button class="menu-btn">آليات تركيب البروتين</button>
+  <button class="menu-btn">العلاقة بين بنية ووظيفة البروتين</button>
+  <br><br>
+  <button class="menu-btn">النشاط الإنزيمي للبروتينات</button>
+  <button class="menu-btn">دور البروتينات في الدفاع عن الذات </button>
+  <br><br>
+  <button class="menu-btn">دور البروتينات في الاتصال العصبي</button>
+  <button class="menu-btn"> آليات تحويل الطاقة الضوئية إلى طاقة كيميائية كامنة</button>
+  <br><br>
+  <button class="menu-btn">آليات تحويل الطاقة الكيميائية الكامنة في الأوساط</button>
+  <button class="menu-btn">البنية الداخلية للكرة الأرضية </button> 
+  <br><br>
+  <button class="menu-btn">النشاط التكتوني والبنيات الجيولوجية المرتبطة به</button>
+ </div>
+ <!-- صفحة تمارين العلوم الطبيعية -->
+ <div id="science-science-exercises" class="section-page">
+  <h1>🎯 تمارين العلوم الطبيعية</h1>
+  <button class="back-btn" onclick="showSection('science-subject')">
+   ⬅️ العودة إلى مادة العلوم الطبيعية
+  </button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('science-science-exercises-oneweek')">آليات تركيب البروتين</button>
+  <button class="menu-btn">العلاقة بين بنية ووظيفة البروتين</button>
+  <br><br>
+  <button class="menu-btn">النشاط الإنزيمي للبروتينات</button>
+  <button class="menu-btn">دور البروتينات في الدفاع عن الذات </button>
+  <br><br>
+  <button class="menu-btn">دور البروتينات في الاتصال العصبي</button>
+  <button class="menu-btn"> آليات تحويل الطاقة الضوئية إلى طاقة كيميائية كامنة</button>
+  <br><br>
+  <button class="menu-btn">آليات تحويل الطاقة الكيميائية الكامنة في الأوساط</button>
+  <button class="menu-btn">البنية الداخلية للكرة الأرضية </button> 
+  <br><br>
+  <button class="menu-btn">النشاط التكتوني والبنيات الجيولوجية المرتبطة به</button>
+ </div>
+   <!-- صفحة تمارين آليات تركيب البروتين  -->
+   <div id="science-science-exercises-oneweek" class="section-page">
+   <h1> تمارين آليات تركيب البروتين  </h1>
+    <button class="back-btn" onclick="showSection('science-science-exercises')">
+      ⬅️ العودة إلى تمارين العلوم الطبيعية
+    </button>
+    <br><br>
+    <button class="menu-btn">المكتسبات القبلية</button>
+    <button class="menu-btn">الاستنساخ (ARNm)</button>
+    <br><br>
+    <button class="menu-btn">الترجمة (ARNt والريبوزومات)</button>
+    <button class="menu-btn">مراحل التشكل </button> 
+   </div>
+ <!-- صفحة مواضيع البكالوريا والحلول النموذجية --> 
+ <div id="science-science-bac" class="section-page">
+  <h1>📄 مواضيع البكالوريا والحلول النموذجية</h1>
+  <button class="back-btn"onclick="showSection('science-subject')">
+   ⬅️ العودة إلى مادة العلوم الطبيعية
+  </button>
+  <br><br>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-sciences-2026.pdf')">📘 بكالوريا 2026 (الموضوع والتصحيح)</button>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-sciences-2025.pdf')">📘 بكالوريا 2025 (الموضوع والتصحيح)</button>
+  <br><br>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-sciences-2024.pdf')">📘 بكالوريا 2024 (الموضوع والتصحيح)</button>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-sciences-2023.pdf')">📘 بكالوريا 2023 (الموضوع والتصحيح)</button>
+  <br><br>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-sciences-2022.pdf')">📘 بكالوريا 2022 (الموضوع والتصحيح)</button>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-sciences-2021.pdf')">📘 بكالوريا 2021 (الموضوع والتصحيح)</button>
+  <br><br>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-sciences-2020.pdf')">📘 بكالوريا 2020 (الموضوع والتصحيح)</button>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-sciences-2019.pdf')">📘 بكالوريا 2019 (الموضوع والتصحيح)</button>
+  <br><br>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-sciences-2018.pdf')">📘 بكالوريا 2018 (الموضوع والتصحيح)</button>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-sciences-2017.pdf')">📘 بكالوريا 2017 (الموضوع والتصحيح)</button>
+  <br><br>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-sciences-2016.pdf')">📘 بكالوريا 2016 (الموضوع والتصحيح)</button>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-sciences-2015.pdf')">📘 بكالوريا 2015 (الموضوع والتصحيح)</button>
+ </div>
+ <!-- محتوى مادة العلوم الفيزيائية -->
+  <div id="physics-subject" class="section-page">
+  <h1> مادة العلوم الفيزيائية ⚛️ </h1>
+  <button class="back-btn" onclick="showSection('science')">
+  ⬅️ العودة إلى شعبة علوم تجريبية
+  </button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('physics-science-lessons')">📚 الدروس</button>
+  <button class="menu-btn" onclick="showSection('physics-science-summaries')">📝 الملخصات</button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('physics-science-exercises')">🎯 التمارين</button>
+  <button class="menu-btn" onclick="showSection('physics-science-bac')">📄 مواضيع وحلول البكالوريا</button>
+  <br><br>
+ </div>
+ <!-- صفحة دروس العلوم الفيزيائية  -->
+ <div id="physics-science-lessons" class="section-page">
+  <h1> دروس العلوم الفيزيائية  </h1>
+  <button class="back-btn" onclick="showSection('physics-subject')">
+    ⬅️ العودة إلى مادة العلوم الفيزيائية
+  </button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('physics-science-lessons-unit1')">المتابعة الزمنية لتحول كيميائي في وسط مائي</button>
+  <button class="menu-btn" onclick="showSection('physics-science-lessons-unit2')">دراسة التحولات النووية</button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('physics-science-lessons-unit3')">دراسة الظواهر الكهربائية</button>
+  <button class="menu-btn" onclick="showSection('physics-science-lessons-unit4')">تطور جملة كيميائية نحو حالة التوازن </button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('physics-science-lessons-unit5')">تطور جملة ميكانيكية</button>
+  <button class="menu-btn" onclick="showSection('physics-science-lessons-unit6')"> مراقبة تطور جملة كيميائية </button>
+  </div>
+    <!-- صفحة دروس المتابعة الزمنية لتحول كيميائي في وسط مائي  -->
+    <div id="physics-science-lessons-unit1" class="section-page">
+     <h1> دروس المتابعة الزمنية لتحول كيميائي في وسط مائي  </h1>
+     <button class="back-btn" onclick="showSection('physics-science-lessons')">
+       ⬅️ العودة إلى دروس العلوم الفيزيائية
+     </button>
+     <br><br>
+     <button class="menu-btn">المكتسبات القبلية</button>
+     <button class="menu-btn">التحولات السريعة والتحولات البطيئة</button>
+     <br><br>
+     <button class="menu-btn">المتابعة الزمنية لتحول كيميائي</button>
+     <button class="menu-btn">السرعة الحجمية للتفاعل وزمن نصف التفاعل (t1/2)</button> 
+    </div>
+    <!-- صفحة دروس دراسة التحولات النووية  -->
+    <div id="physics-science-lessons-unit2" class="section-page">
+     <h1> دروس دراسة التحولات النووية  </h1>
+     <button class="back-btn" onclick="showSection('physics-science-lessons')">
+       ⬅️ العودة إلى دروس العلوم الفيزيائية
+     </button>
+     <br><br>
+     <button class="menu-btn">المكتسبـــات القبلية</button>
+     <br><br>
+     <button class="menu-btn">النشاط الإشعاعي وقانون التناقص الإشعاعي</button>
+     <br><br>
+     <button class="menu-btn">الانشطار والاندماج والفيصلة الطاقوية</button>
+    </div>
+    <!-- صفحة دروس دراسة الظواهر الكهربائية  -->
+    <div id="physics-science-lessons-unit3" class="section-page">
+     <h1> دروس دراسة الظواهر الكهربائية  </h1>
+     <button class="back-btn" onclick="showSection('physics-science-lessons')">
+       ⬅️ العودة إلى دروس العلوم الفيزيائية
+     </button>
+     <br><br>
+     <button class="menu-btn">المكتسبات القبلية</button>
+     <button class="menu-btn">ثنائي القطب RC (المكثفة)</button>
+     <br><br>
+     <button class="menu-btn">ثنائي القطب RL (الوشيعة)</button>
+     <button class="menu-btn">الطاقة المخزنة والربط بين الدارتين</button> 
+    </div>
+    <!-- صفحة دروس تطور جملة كيميائية نحو حالة التوازن  -->
+    <div id="physics-science-lessons-unit4" class="section-page">
+     <h1> دروس تطور جملة كيميائية نحو حالة التوازن  </h1>
+     <button class="back-btn" onclick="showSection('physics-science-lessons')">
+       ⬅️ العودة إلى دروس العلوم الفيزيائية
+     </button>
+     <br><br>
+     <button class="menu-btn">المكتسبات القبلية</button>
+     <button class="menu-btn">مفهوم الـ pH ومقارنة الأحماض والأسس (القوية والضعيفة)</button>
+     <br><br>
+     <button class="menu-btn">حالة توازن جملة كيميائية (كسر التفاعل Qr وثابت التوازن K)</button>
+     <button class="menu-btn">التحولات حمض - أساس (ثابت الحموضة Ka ومخططات التوزيع)</button> 
+     <br><br>
+     <button class="menu-btn">المعايرة الحمضية الأساسية (المنحنيات والكواشف الملونة)</button>
+    </div>
+    <!--  صفحة دروس تطور جملة ميكانيكية  -->
+    <div id="physics-science-lessons-unit5" class="section-page">
+     <h1> دروس تطور جملة ميكانيكية  </h1>
+     <button class="back-btn" onclick="showSection('physics-science-lessons')">
+       ⬅️ العودة إلى دروس العلوم الفيزيائية
+     </button>
+     <br><br>
+     <button class="menu-btn">المكتسبات القبلية وقوانين نيوتن</button>
+     <button class="menu-btn">حركة الكواكب والأقمار الاصطناعية</button>
+     <br><br>
+     <button class="menu-btn">السقوط الشاقولي والحر لجسم صلب</button>
+     <button class="menu-btn">حركة المقذوفات وحركة جسم على مستوٍ</button> 
+     <br><br>
+     <button class="menu-btn">حدود ميكانيك نيوتن (المدخل إلى الميكانيك النسبي)</button>
+    </div>
+ <!-- صفحة دروس مراقبة تطور جملة كيميائية   -->
+    <div id="physics-science-lessons-unit6" class="section-page">
+     <h1> دروس مراقبة تطور جملة كيميائية </h1>
+     <button class="back-btn" onclick="showSection('physics-science-lessons')">
+       ⬅️ العودة إلى دروس العلوم الفيزيائية
+     </button>
+     <br><br>
+     <button class="menu-btn">المكتسبات القبلية (الكيمياء العضوية)</button>
+     <button class="menu-btn">تفاعلات الإسترة وإماهة الإستر</button>
+     <br><br>
+     <button class="menu-btn">مراقبة وتوجيه تفاعل الإسترة (زيادة المردود)</button>
+     <button class="menu-btn">التصبن وصناعة الصابون</button> 
+    </div>
+ <!-- صفحة ملخصات العلوم الفيزيائية -->
+ <div id="physics-science-summaries" class="section-page">
+  <h1>📝 ملخصات العلوم الفيزيائية</h1>
+  <button class="back-btn"onclick="showSection('physics-subject')">
+   ⬅️ العودة إلى مادة العلوم الفيزيائية
+  </button>
+  <br><br>
+  <button class="menu-btn">المتابعة الزمنية لتحول كيميائي في وسط مائي</button>
+  <button class="menu-btn">دراسة التحولات النووية</button>
+  <br><br>
+  <button class="menu-btn">دراسة الظواهر الكهربائية</button>
+  <button class="menu-btn">تطور جملة كيميائية نحو حالة التوازن </button>
+  <br><br>
+  <button class="menu-btn">تطور جملة ميكانيكية</button>
+  <button class="menu-btn"> مراقبة تطور جملة كيميائية </button>
+ </div>
+ <!-- صفحة تمارين العلوم الفيزيائية -->
+ <div id="physics-science-exercises" class="section-page">
+  <h1>🎯 تمارين العلوم الفيزيائية</h1>
+  <button class="back-btn" onclick="showSection('physics-subject')">
+   ⬅️ العودة إلى مادة العلوم الفيزيائية
+  </button>
+  <br><br>
+  <button class="menu-btn">المتابعة الزمنية لتحول كيميائي في وسط مائي</button>
+  <button class="menu-btn">دراسة التحولات النووية</button>
+  <br><br>
+  <button class="menu-btn">دراسة الظواهر الكهربائية</button>
+  <button class="menu-btn">تطور جملة كيميائية نحو حالة التوازن </button>
+  <br><br>
+  <button class="menu-btn">تطور جملة ميكانيكية</button>
+  <button class="menu-btn"> مراقبة تطور جملة كيميائية </button>
+ </div>
+ <!-- صفحة مواضيع البكالوريا والحلول النموذجية --> 
+ <div id="physics-science-bac" class="section-page">
+  <h1>📄 مواضيع البكالوريا والحلول النموذجية</h1>
+  <button class="back-btn"onclick="showSection('physics-subject')">
+   ⬅️ العودة إلى مادة العلوم الفيزيائية
+  </button>
+  <br><br>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-physique-2026.pdf')">📘 بكالوريا 2026 (الموضوع والتصحيح)</button>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-physique-2025.pdf')">📘 بكالوريا 2025 (الموضوع والتصحيح)</button>
+  <br><br>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-physique-2024.pdf')">📘 بكالوريا 2024 (الموضوع والتصحيح)</button>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-physique-2023.pdf')">📘 بكالوريا 2023 (الموضوع والتصحيح)</button>
+  <br><br>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-physique-2022.pdf')">📘 بكالوريا 2022 (الموضوع والتصحيح)</button>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-physique-2021.pdf')">📘 بكالوريا 2021 (الموضوع والتصحيح)</button>
+  <br><br>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-physique-2020.pdf')">📘 بكالوريا 2020 (الموضوع والتصحيح)</button>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-physique-2019.pdf')">📘 بكالوريا 2019 (الموضوع والتصحيح)</button>
+  <br><br>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-physique-2018.pdf')">📘 بكالوريا 2018 (الموضوع والتصحيح)</button>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-physique-2017.pdf')">📘 بكالوريا 2017 (الموضوع والتصحيح)</button>
+  <br><br>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-physique-2016.pdf')">📘 بكالوريا 2016 (الموضوع والتصحيح)</button>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-physique-2015.pdf')">📘 بكالوريا 2015 (الموضوع والتصحيح)</button>
+ </div>
+ <!-- محتوى مادة الرياضيات -->
+  <div id="math-subject" class="section-page" >
+  <h1>  مادة الرياضيات 📐</h1>
+  <button class="back-btn" onclick="showSection('science')">
+  ⬅️ العودة إلى شعبة علوم تجريبية
+  </button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('math-science-lessons')">📚 الدروس</button>
+  <button class="menu-btn" onclick="showSection('math-science-summaries')">📝 الملخصات</button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('math-science-exercises')">🎯 التمارين</button>
+  <button class="menu-btn" onclick="showSection('math-science-bac')">📄 مواضيع وحلول البكالوريا</button>
+  <br><br>
+ </div>
+ <!-- صفحة دروس الرياضيات  -->
+ <div id="math-science-lessons" class="section-page">
+  <h1> دروس الرياضيات  </h1>
+  <button class="back-btn" onclick="showSection('math-subject')">
+    ⬅️ العودة إلى مادة الرياضيات
+  </button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('math-science-lessons-unit1')"> الدوال العددية، الاستمرارية والاشتقاقية</button>
+  <button class="menu-btn" onclick="showSection('math-science-lessons-unit2')">الدوال الأسية</button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('math-science-lessons-unit3')"> الدوال اللوغاريتمية النيبيرية</button>
+  <button class="menu-btn" onclick="showSection('math-science-lessons-unit4')"> التزايد المقارن والدوال الأصلية وحساب التكامل</button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('math-science-lessons-unit5')"> المتتاليات العددية </button>
+  <button class="menu-btn" onclick="showSection('math-science-lessons-unit6')">الأعداد المركبة والتحويلات النقطية</button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('math-science-lessons-unit7')"> الهندسة في الفضاء</button>
+  <button class="menu-btn" onclick="showSection('math-science-lessons-unit8')">الاحتمالات </button>
+ </div>
+ <!-- صفحة دروس الدوال العددية، الاستمرارية والاشتقاقية -->
+ <div id="math-science-lessons-unit1" class="section-page">
+  <h1> دروس الدوال العددية، الاستمرارية والاشتقاقية </h1>
+  <button class="back-btn" onclick="showSection('math-science-lessons')">
+    ⬅️ العودة إلى دروس الرياضيات
+  </button>
+  <br><br>
+  <button class="menu-btn">النهايات وحالات عدم التعيين (المبرهنات والمقارنة)</button>
+  <button class="menu-btn">الاستمرارية ومبرهنة القيم المتوسطة</button>
+  <br><br>
+  <button class="menu-btn">الاشتقاقية وتقريب خطي (معادلة المماس والمنحنيات المقاربة)</button>
+  <button class="menu-btn">اتجاه تغير دالة وجدول التغيرات</button> 
+  <br><br>
+  <button class="menu-btn">مركز ومحور التناظر والدوال المرجعية</button>
+ </div>
+ <!-- صفحة دروس الدوال الأسية -->
+<div id="math-science-lessons-unit2" class="section-page">
+ <h1> دروس الدوال الأسية </h1>
+ <button class="back-btn" onclick="showSection('math-science-lessons')">
+   ⬅️ العودة إلى دروس الرياضيات
+ </button>
+ <br><br>
+ <button class="menu-btn">تعريف الدالة الأسية وخواصها الجبرية</button>
+ <button class="menu-btn">دراسة تغيرات الدالة الأسية والتمثيل البياني</button>
+ <br><br>
+ <button class="menu-btn">النهايات الشهيرة والتزايد المقارن للدالة الأسية</button>
+ <button class="menu-btn">المعادلات والمتراجحات والمشتقات التي تتضمن Expx</button> 
+</div>
+<!-- صفحة دروس الدوال اللوغاريتمية النيبيرية -->
+<div id="math-science-lessons-unit3" class="section-page">
+ <h1> دروس الدوال اللوغاريتمية النيبيرية </h1>
+ <button class="back-btn" onclick="showSection('math-science-lessons')">
+   ⬅️ العودة إلى دروس الرياضيات
+ </button>
+ <br><br>
+ <button class="menu-btn">تعريف الدالة اللوغاريتمية وخواصها الجبرية</button>
+ <button class="menu-btn">دراسة تغيرات الدالة اللوغاريتمية والتمثيل البياني</button>
+ <br><br>
+ <button class="menu-btn">النهايات الشهيرة والتزايد المقارن للدالة اللوغاريتمية</button>
+ <button class="menu-btn">المعادلات والمتراجحات والمشتقات التي تتضمن Lnx</button> 
+</div>
+<!-- صفحة دروس الدوال الأصلية وحساب التكامل -->
+<div id="math-science-lessons-unit4" class="section-page">
+ <h1> دروس الدوال الأصلية وحساب التكامل </h1>
+ <button class="back-btn" onclick="showSection('math-science-lessons')">
+   ⬅️ العودة إلى دروس الرياضيات
+ </button>
+ <br><br>
+ <button class="menu-btn">مفهوم الدالة الأصلية لدالة على مجال</button>
+ <button class="menu-btn">العمليات على الدوال الأصلية والجدول المرجعي</button>
+ <br><br>
+ <button class="menu-btn">حساب التكامل ومفهوم القيمة المتوسطة</button>
+ <button class="menu-btn">حساب المساحات والحجوم بالتكامل</button> 
+</div>
+<!-- صفحة دروس المتتاليات العددية -->
+<div id="math-science-lessons-unit5" class="section-page">
+ <h1> دروس المتتاليات العددية </h1>
+ <button class="back-btn" onclick="showSection('math-science-lessons')">
+   ⬅️ العودة إلى دروس الرياضيات
+ </button>
+ <br><br>
+ <button class="menu-btn">توليد متتالية والتمثيل البياني لحدودها</button>
+ <button class="menu-btn">المتتاليات الحسابية والمتتاليات الهندسية</button>
+ <br><br>
+ <button class="menu-btn">اتجاه تغير متتالية والتقارب (المحدودية)</button>
+ <button class="menu-btn">البرهان بالتراجع ودراسة المتتاليات المتراجعة</button> 
+</div>
+<!-- صفحة دروس الأعداد المركبة والتحويلات النقطية -->
+<div id="math-science-lessons-unit6" class="section-page">
+ <h1> دروس الأعداد المركبة والتحويلات النقطية </h1>
+ <button class="back-btn" onclick="showSection('math-science-lessons')">
+   ⬅️ العودة إلى دروس الرياضيات
+ </button>
+ <br><br>
+ <button class="menu-btn">مجموعة الأعداد المركبة والشكل الجبري</button>
+ <button class="menu-btn">التفسير الهندسي، الشكل المثلثي والأسي لعدد مركب</button>
+ <br><br>
+ <button class="menu-btn">حل المعادلات من الدرجة الثانية في مجموعة الأعداد المركبة</button>
+ <button class="menu-btn">التحويلات النقطية في المستوي المركب (الانسحاب، التحاكي، الدوران)</button> 
+</div>
+<!-- صفحة دروس الهندسة في الفضاء -->
+<div id="math-science-lessons-unit7" class="section-page">
+ <h1> دروس الهندسة في الفضاء </h1>
+ <button class="back-btn" onclick="showSection('math-science-lessons')">
+   ⬅️ العودة إلى دروس الرياضيات
+ </button>
+ <br><br>
+ <button class="menu-btn">التعامد في الفضاء والمنتوج السلمي</button>
+ <button class="menu-btn">المعادلة الديكارتية لمستوٍ والتمثيل البرامتري لمستقيم</button>
+ <br><br>
+ <button class="menu-btn">الأوضاع النسبية للمستقيمات والمستويات وحساب المسافات</button>
+ <button class="menu-btn">دراسة سطح الكرة (المعادلة والأوضاع النسبية)</button> 
+</div>
+<!-- صفحة دروس الاحتمالات -->
+<div id="math-science-lessons-unit8" class="section-page">
+ <h1> دروس الاحتمالات </h1>
+ <button class="back-btn" onclick="showSection('math-science-lessons')">
+   ⬅️ العودة إلى دروس الرياضيات
+ </button>
+ <br><br>
+ <button class="menu-btn">العد والتحليل التوفيقي (القوائم، الترتيبات، والتوفيقيات)</button>
+ <button class="menu-btn">الاحتمالات على مجموعة منتهية وخواصها</button>
+ <br><br>
+ <button class="menu-btn">الاحتمالات الشرطية واستقلالية الحوادث (شجرة الاحتمالات)</button>
+ <button class="menu-btn">المتغير العشوائي وقانون الاحتمال (الأمل والتباين)</button> 
+</div>
+ <!-- صفحة ملخصات الرياضيات -->
+ <div id="math-science-summaries" class="section-page">
+  <h1>📝 ملخصات الرياضيات</h1>
+  <button class="back-btn"onclick="showSection('math-subject')">
+   ⬅️ العودة إلى مادة الرياضيات
+  </button>
+  <br><br>
+  <button class="menu-btn"> الدوال العددية، الاستمرارية والاشتقاقية</button>
+  <button class="menu-btn">الدوال الأسية</button>
+  <br><br>
+  <button class="menu-btn"> الدوال اللوغاريتمية النيبيرية</button>
+  <button class="menu-btn"> التزايد المقارن والدوال الأصلية وحساب التكامل</button>
+  <br><br>
+  <button class="menu-btn"> المتتاليات العددية </button>
+  <button class="menu-btn">الأعداد المركبة والتحويلات النقطية</button>
+  <br><br>
+  <button class="menu-btn"> الهندسة في الفضاء</button>
+  <button class="menu-btn">الاحتمالات </button>
+ </div>
+ <!-- صفحة تمارين الرياضيات -->
+ <div id="math-science-exercises" class="section-page">
+  <h1>🎯 تمارين الرياضيات</h1>
+  <button class="back-btn" onclick="showSection('math-subject')">
+   ⬅️ العودة إلى مادة الرياضيات
+  </button>
+  <br><br>
+  <button class="menu-btn"> الدوال العددية، الاستمرارية والاشتقاقية</button>
+  <button class="menu-btn">الدوال الأسية</button>
+  <br><br>
+  <button class="menu-btn"> الدوال اللوغاريتمية النيبيرية</button>
+  <button class="menu-btn"> التزايد المقارن والدوال الأصلية وحساب التكامل</button>
+  <br><br>
+  <button class="menu-btn"> المتتاليات العددية </button>
+  <button class="menu-btn">الأعداد المركبة والتحويلات النقطية</button>
+  <br><br>
+  <button class="menu-btn"> الهندسة في الفضاء</button>
+  <button class="menu-btn">الاحتمالات </button>
+ </div>
+ <!-- صفحة مواضيع البكالوريا والحلول النموذجية --> 
+ <div id="math-science-bac" class="section-page">
+  <h1>📄 مواضيع البكالوريا والحلول النموذجية</h1>
+  <button class="back-btn"onclick="showSection('math-subject')">
+   ⬅️ العودة إلى مادة الرياضيات
+  </button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2026</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2026</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2025</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2025</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2024</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2024</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2023</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2023</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2022</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2022</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2021</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2021</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2020</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2020</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2019</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2019</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2018</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2018</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2017</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2017</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2016</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2016</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2015</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2015</button>
+ </div>
+ <!-- محتوى مادة اللغة العربية -->
+  <div id="arabic-subject" class="section-page">
+  <h1>مادة اللغة العربية 📖  </h1>
+  <button class="back-btn" onclick="showSection('science')">
+  ⬅️ العودة إلى شعبة علوم تجريبية
+  </button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('arabic-science-lessons')">📚 الدروس</button>
+  <button class="menu-btn" onclick="showSection('arabic-science-summaries')">📝 الملخصات</button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('arabic-science-exercises')">🎯 التمارين</button>
+  <button class="menu-btn" onclick="showSection('arabic-science-bac')">📄 مواضيع وحلول البكالوريا</button>
+  <br><br>
+ </div>
+ <!-- صفحة دروس اللغة العربية -->
+<div id="arabic-science-lessons" class="section-page">
+ <h1> دروس اللغة العربية</h1>
+ <button class="back-btn" onclick="showSection('arabic-subject')">
+   ⬅️ العودة إلى مادة اللغة العربية
+ </button>
+ <br><br>
+ <button class="menu-btn" onclick="showSection('arabic-science-lessons-unit1')">أدب عصر الانحطاط (شعر المديح والزهد)</button>
+ <button class="menu-btn" onclick="showSection('arabic-science-lessons-unit2')">النزعة الإنسانية في الشعر الحديث (الرومانسية)</button>
+ <br><br>
+ <button class="menu-btn" onclick="showSection('arabic-science-lessons-unit3')">الشعر السياسي والتحرري (القضية الفلسطينية والجزائرية)</button>
+ <button class="menu-btn" onclick="showSection('arabic-science-lessons-unit4')">فنون النثر الحديث (المقال والقصة)</button>
+</div>
+<!-- صفحة دروس أدب عصر الانحطاط -->
+<div id="arabic-science-lessons-unit1" class="section-page">
+ <h1> أدب عصر الانحطاط (شعر المديح والزهد) </h1>
+ <button class="back-btn" onclick="showSection('arabic-science-lessons')">
+   ⬅️ العودة إلى دروس اللغة العربية
+ </button>
+ <br><br>
+ <button class="menu-btn">دراسة النص: شعر المدائح النبوية والزهد (البوصيري وابن نباتة)</button>
+ <button class="menu-btn">قواعد اللغة: الجمل التي لها محل والتي لا محل لها من الإعراب</button>
+ <br><br>
+ <button class="menu-btn">البلاغة والنقد: الحقل الدلالي، والتقويم النقدي لظاهرة التقليد</button>
+</div>
+<!-- صفحة دروس النزعة الإنسانية في الشعر الحديث -->
+<div id="arabic-science-lessons-unit2" class="section-page">
+ <h1> النزعة الإنسانية في الشعر الحديث (الرومانسية) </h1>
+ <button class="back-btn" onclick="showSection('arabic-science-lessons')">
+   ⬅️ العودة إلى دروس اللغة العربية
+ </button>
+ <br><br>
+ <button class="menu-btn">دراسة النص: شعر المهجر (إيليا أبو ماضي وميخائيل نعيمة)</button>
+ <button class="menu-btn">قواعد اللغة: إعراب "إذا"، "إذ"، "إذن"، و"حينئذ"</button>
+ <br><br>
+ <button class="menu-btn">البلاغة والنقد: خصائص المدرسة الرومانسية (الرابطة القلمية)</button>
+</div>
+<!-- صفحة دروس الشعر السياسي والتحرري -->
+<div id="arabic-science-lessons-unit3" class="section-page">
+ <h1> الشعر السياسي والتحرري (القضية الفلسطينية والجزائرية) </h1>
+ <button class="back-btn" onclick="showSection('arabic-science-lessons')">
+   ⬅️ العودة إلى دروس اللغة العربية
+ </button>
+ <br><br>
+ <button class="menu-btn">دراسة النص: الالتزام في الشعر العربي الحديث (مفدي زكريا ونزار قباني)</button>
+ <button class="menu-btn">قواعد اللغة: إعراب "لو"، "لولا"، "لوما"، وأحكام المبتدأ والخبر</button>
+ <br><br>
+ <button class="menu-btn">البلاغة والنقد: ظاهرة الالتزام، الرمز والأسطورة، والنزعات (الوطنية والقومية)</button>
+</div>
+<!-- صفحة دروس فنون النثر الحديث -->
+<div id="arabic-science-lessons-unit4" class="section-page">
+ <h1> فنون النثر الحديث (المقال والقصة) </h1>
+ <button class="back-btn" onclick="showSection('arabic-science-lessons')">
+   ⬅️ العودة إلى دروس اللغة العربية
+ </button>
+ <br><br>
+ <button class="menu-btn">دراسة النص: فن المقال (البشير الإبراهيمي وأحمد أمين)</button>
+ <button class="menu-btn">قواعد اللغة: معاني وإعراب الحروف (الحروف المشبهة بالفعل، وحروف الجر)</button>
+ <br><br>
+ <button class="menu-btn">البلاغة والنقد: خصائص النثر العلمي المتأدب، وفن القصة والمقال</button>
+ </div>
+ <!-- صفحة ملخصات اللغة العربية -->
+ <div id="arabic-science-summaries" class="section-page">
+  <h1>📝 ملخصات اللغة العربية</h1>
+  <button class="back-btn"onclick="showSection('arabic-subject')">
+   ⬅️ العودة إلى مادة اللغة العربية
+  </button>
+  <br><br>
+  <button class="menu-btn">عصر الانحطاط </button>
+  <button class="menu-btn">الشعر الرومانسي</button>
+  <br><br>
+  <button class="menu-btn">الشعر السياسي</button>
+  <button class="menu-btn">فنون النثر الحديث</button>
+ </div>
+ <!-- صفحة تمارين اللغة العربية -->
+ <div id="arabic-science-exercises" class="section-page">
+  <h1>🎯 تمارين اللغة العربية</h1>
+  <button class="back-btn" onclick="showSection('arabic-subject')">
+   ⬅️ العودة إلى مادة اللغة العربية
+  </button>
+  <br><br>
+  <button class="menu-btn">عصر الانحطاط </button>
+  <button class="menu-btn">الشعر الرومانسي</button>
+  <br><br>
+  <button class="menu-btn">الشعر السياسي</button>
+  <button class="menu-btn">فنون النثر الحديث</button>
+ </div>
+ <!-- صفحة مواضيع البكالوريا والحلول النموذجية --> 
+ <div id="arabic-science-bac" class="section-page">
+  <h1>📄 مواضيع البكالوريا والحلول النموذجية</h1>
+  <button class="back-btn"onclick="showSection('arabic-subject')">
+   ⬅️ العودة إلى مادة اللغة العرية
+  </button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2026</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2026</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2025</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2025</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2024</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2024</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2023</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2023</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2022</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2022</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2021</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2021</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2020</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2020</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2019</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2019</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2018</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2018</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2017</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2017</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2016</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2016</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2015</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2015</button>
+ </div>
+ <!-- محتوى مادة العلوم الإسلامية -->
+  <div id="islamic-subject" class="section-page">
+  <h1>مادة العلوم الإسلامية ☪️</h1>
+  <button class="back-btn" onclick="showSection('science')">
+  ⬅️ العودة إلى شعبة علوم تجريبية
+  </button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('islamic-science-lessons')">📚 الدروس</button>
+  <button class="menu-btn" onclick="showSection('islamic-science-summaries')">📝 الملخصات</button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('islamic-science-exercises')">🎯 التمارين</button>
+  <button class="menu-btn" onclick="showSection('islamic-science-bac')">📄 مواضيع وحلول البكالوريا</button>
+  <br><br>
+ </div>
+
+ <!-- صفحة دروس العلوم الإسلامية -->
+ <div id="islamic-science-lessons" class="section-page">
+  <h1>📚 دروس العلوم الإسلامية</h1>
+  <button class="back-btn" onclick="showSection('islamic-subject')">
+    ⬅️ العودة إلى مادة العلوم الإسلامية
+  </button>
+  <br><br>
+  <button class="menu-btn" >العقيدة الإسلامية وأثرها على الفرد والمجتمع</button>
+  <button class="menu-btn" >وسائل القرآن الكريم في تثبيت العقيدة الإسلامية</button>
+  <br><br>
+  <button class="menu-btn" >الإسلام والرسالات السماوية السابقة</button>
+  <button class="menu-btn" >العقل في القرآن الكريم وأهميته</button>
+  <br><br>
+  <button class="menu-btn" >مقاصد الشريعة الإسلامية وأقسامها</button>
+  <button class="menu-btn" >منهج الإسلام في محاربة الانحراف والجريمة</button>
+  <br><br>
+  <button class="menu-btn" >من أحكام الأسرة: الزواج، النسب، الكفالة والتبني</button>
+  <button class="menu-btn" >مدخل إلى علم الميراث وأحكامه</button>
+  <br><br>
+  <button class="menu-btn" >من المعاملات المالية المباحة والمحرمة (الربا والصرف)</button>
+  <button class="menu-btn" >الحرية الشخصية وعلاقتها بحقوق الآخرين</button>
+  <br><br>
+  <button class="menu-btn" >من مصادر التشريع الإسلامي (الإجماع، القياس، المصلحة المرسلة)</button>
+  <button class="menu-btn" >قيم حضارية في خطبة الرسول ﷺ في حجة الوداع</button>
+ </div>
+ <!-- صفحة ملخصات العلوم الإسلامية -->
+ <div id="islamic-science-summaries" class="section-page">
+  <h1>📝 ملخصات العلوم الإسلامية</h1>
+  <button class="back-btn"onclick="showSection('islamic-subject')">
+   ⬅️ العودة إلى مادة العلوم الإسلامية
+  </button>
+  <br><br>
+  <button class="menu-btn">العقيدة وتثبيتها بالقرآن</button>
+  <button class="menu-btn">الصحة والعقل في الإسلام</button>
+  <br><br>
+  <button class="menu-btn">مقاصد الشريعة والرسالات السماوية</button>
+  <button class="menu-btn">العدالة و مكافحة الجريمة</button>
+  <br><br>
+  <button class="menu-btn">فقه الربا والمعاملات المالية</button>
+  <button class="menu-btn">فقه الأسرة والميراث</button>
+ </div>
+ <!-- صفحة تمارين العلوم الإسلامية -->
+ <div id="islamic-science-exercises" class="section-page">
+  <h1>🎯 تمارين العلوم الإسلامية</h1>
+  <button class="back-btn" onclick="showSection('islamic-subject')">
+   ⬅️ العودة إلى مادة العلوم الإسلامية
+  </button>
+  <br><br>
+  <button class="menu-btn">العقيدة وتثبيتها بالقرآن</button>
+  <button class="menu-btn">الصحة والعقل في الإسلام</button>
+  <br><br>
+  <button class="menu-btn">مقاصد الشريعة والرسالات السماوية</button>
+  <button class="menu-btn">العدالة و مكافحة الجريمة</button>
+  <br><br>
+  <button class="menu-btn">فقه الربا والمعاملات المالية</button>
+  <button class="menu-btn">فقه الأسرة والميراث</button>
+ </div>
+ <!-- صفحة مواضيع البكالوريا والحلول النموذجية --> 
+ <div id="islamic-science-bac" class="section-page">
+  <h1>📄 مواضيع البكالوريا والحلول النموذجية</h1>
+  <button class="back-btn"onclick="showSection('islamic-subject')">
+   ⬅️ العودة إلى مادة العلوم الإسلامية
+  </button>
+  <br><br>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-islamia-2026.pdf')">📘 بكالوريا 2026 (الموضوع والتصحيح)</button>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-islamia-2025.pdf')">📘 بكالوريا 2025 (الموضوع والتصحيح)</button>
+  <br><br>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-islamia-2024.pdf')">📘 بكالوريا 2024 (الموضوع والتصحيح)</button>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-islamia-2023.pdf')">📘 بكالوريا 2023 (الموضوع والتصحيح)</button>
+  <br><br>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-islamia-2022.pdf')">📘 بكالوريا 2022 (الموضوع والتصحيح)</button>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-islamia-2021.pdf')">📘 بكالوريا 2021 (الموضوع والتصحيح)</button>
+  <br><br>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-islamia-2020.pdf')">📘 بكالوريا 2020 (الموضوع والتصحيح)</button>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-islamia-2019.pdf')">📘 بكالوريا 2019 (الموضوع والتصحيح)</button>
+  <br><br>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-islamia-2018.pdf')">📘 بكالوريا 2018 (الموضوع والتصحيح)</button>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-islamia-2017.pdf')">📘 بكالوريا 2017 (الموضوع والتصحيح)</button>
+  <br><br>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-islamia-2016.pdf')">📘 بكالوريا 2016 (الموضوع والتصحيح)</button>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-islamia-2015.pdf')">📘 بكالوريا 2015 (الموضوع والتصحيح)</button>
+ </div>
+ <!-- محتوى مادة التاريخ والجغرافيا -->
+  <div id="history-subject" class="section-page">
+  <h1> مادة التاريخ والجغرافيا 🌍 </h1>
+  <button class="back-btn" onclick="showSection('science')">
+  ⬅️ العودة إلى شعبة علوم تجريبية
+  </button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('history-science-lessons')">📚 الدروس</button>
+  <button class="menu-btn" onclick="showSection('history-science-summaries')">📝 الملخصات</button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('history-science-exercises')">🎯 التمارين</button>
+  <button class="menu-btn" onclick="showSection('history-science-bac')">📄 مواضيع وحلول البكالوريا</button>
+  <br><br>
+ </div>
+ <!-- صفحة دروس التاريخ والجغرافيا -->
+ <div id="history-science-lessons" class="section-page">
+  <h1>📚 دروس التاريخ والحغرافيا</h1>
+  <button class="back-btn" onclick="showSection('history-subject')">
+    ⬅️ العودة إلى مادة التاريخ والجغرافيا
+  </button>
+  <br><br>
+  دروس مادة التاريـــــــخ
+  <hr><hr>
+  <button class="menu-btn" onclick="showSection('history-science-lessons-unit1')">تطور العالم في ظل القطبية الثنائية (1945 - 1989)</button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('history-science-lessons-unit2')">العمل المسلح ورد فعل الاستعمار (الثورة الجزائرية 1954 - 1962)</button>
+  <button class="menu-btn" onclick="showSection('history-science-lessons-unit3')">العالم الثالث بين تراجع الاستعمار التقليدي واستمرار حركة التحرر</button>
+  <br><br>
+  دروس مادة الجغرافيـــــــا 
+  <hr><hr>
+  <button class="menu-btn" onclick="showSection('history-science-lessons-unit4')">واقع الاقتصاد العالمي </button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('history-science-lessons-unit5')">القوى الاقتصادية الكبرى</button>
+  <button class="menu-btn" onclick="showSection('history-science-lessons-unit6')">علاقات التنمية والتبادل بين دول الشمال والجنوب</button>
+ </div>
+ <!-- صفحة دروس تطور العالم في ظل القطبية الثنائية -->
+<div id="history-science-lessons-unit1" class="section-page">
+ <h1> تطور العالم في ظل القطبية الثنائية (1945 - 1989) </h1>
+ <button class="back-btn" onclick="showSection('history-science-lessons')">
+   ⬅️ العودة إلى دروس التاريخ والجغرافيا
+ </button>
+ <br><br>
+ <button class="menu-btn">بروز الصراع وتشكل العالم (معايير تشكل العالم وأسباب الحرب الباردة)</button>
+ <button class="menu-btn">طبيعة العلاقات بين الكتلتين واستراتيجيات كل معسكر (المشاريع والأحلاف)</button>
+ <br><br>
+ <button class="menu-btn">الأزمات الدولية في ظل الحرب الباردة (برلين، كوريا، السويس، وكوبا)</button>
+ <button class="menu-btn">مساعي الانفراج الدولي (مفهوم التعايش السلمي وعوامل الجنوح إلى السلم)</button> 
+ <br><br>
+ <button class="menu-btn">من الثنائية إلى الأحادية القطبية (تصدع الكتلة الشرقية وملامح النظام العالمي الجديد)</button>
+</div>
+<!-- صفحة دروس العمل المسلح ورد فعل الاستعمار -->
+<div id="history-science-lessons-unit2" class="section-page">
+ <h1> العمل المسلح ورد فعل الاستعمار (الثورة الجزائرية 1954 - 1962) </h1>
+ <button class="back-btn" onclick="showSection('history-science-lessons')">
+   ⬅️ العودة إلى دروس التاريخ والجغرافيا
+ </button>
+ <br><br>
+ <button class="menu-btn">إستراتيجية تنفيذ الثورة على المستوى الداخلي (التعبئة، الهجومات، ومؤتمر الصومام)</button>
+ <button class="menu-btn">إستراتيجية تنفيذ الثورة على المستوى الخارجي (التمثيل الدبلوماسي والتدويل)</button>
+ <br><br>
+ <button class="menu-btn">إستراتيجية الاستعمار للقضاء على الثورة داخلياً وخارجياً (المخططات العسكرية والإغراءات)</button>
+ <button class="menu-btn">استعادة السيادة الوطنية وبناء الدولة الجزائرية (المفاوضات، إيفيان، والاختيارات الكبرى)</button> 
+</div>
+<!-- صفحة دروس العالم الثالث وحركات التحرر -->
+<div id="history-science-lessons-unit3" class="section-page">
+ <h1> العالم الثالث بين تراجع الاستعمار التقليدي واستمرار حركة التحرر </h1>
+ <button class="back-btn" onclick="showSection('history-science-lessons')">
+   ⬅️ العودة إلى دروس التاريخ والجغرافيا
+ </button>
+ <br><br>
+ <button class="menu-btn">تراجع الاستعمار التقليدي واستقلال شعوب العالم الثالث</button>
+ <button class="menu-btn">حركة عدم الانحياز (مفهومها، دورها في دعم حركات التحرر ونضالها الاقتصادي)</button>
+ <br><br>
+ <button class="menu-btn">القضية الفلسطينية (جذورها، تطوراتها، وبؤر التوتر في العالم الثالث)</button>
+</div>
+<!-- صفحة دروس واقع الاقتصاد العالمي -->
+<div id="history-science-lessons-unit4" class="section-page">
+ <h1> واقع الاقتصاد العالمي </h1>
+ <button class="back-btn" onclick="showSection('history-science-lessons')">
+   ⬅️ العودة إلى دروس التاريخ والجغرافيا
+ </button>
+ <br><br>
+ <button class="menu-btn">إشكالية التقدم والتخلف (مفهوم الشمال والجنوب ومعايير التصنيف)</button>
+ <button class="menu-btn">المبادلات والتنقلات في العالم: سوق الطاقة (البترول والغاز الطبيعي)</button>
+ <br><br>
+ <button class="menu-btn">المبادلات والتنقلات في العالم: سوق المواد الغذائية الاستراتيجية (القمح والأرز)</button>
+ <button class="menu-btn">حركة رؤوس الأموال ودور التكنولوجيا والإعلام في الاقتصاد العالمي</button> 
+</div>
+<!-- صفحة دروس القوى الاقتصادية الكبرى -->
+<div id="history-science-lessons-unit5" class="section-page">
+ <h1> القوى الاقتصادية الكبرى </h1>
+ <button class="back-btn" onclick="showSection('history-science-lessons')">
+   ⬅️ العودة إلى دروس التاريخ والجغرافيا
+ </button>
+ <br><br>
+ <button class="menu-btn">مصادر القوة الاقتصادية للولايات المتحدة الأمريكية وأثرها العالمي</button>
+ <button class="menu-btn">ظاهرة التكتل وأثرها في قوة الاتحاد الأوروبي (إقليم الراين والواجهة البحرية)</button>
+ <br><br>
+ <button class="menu-btn">العلاقة بين السكان والتنمية في شرق وجنوب شرق آسيا (القطب الاقتصادي النامي)</button>
+</div>
+<!-- صفحة دروس علاقات التنمية والتبادل بين دول الشمال والجنوب -->
+<div id="history-science-lessons-unit6" class="section-page">
+ <h1> علاقات التنمية والتبادل بين دول الشمال والجنوب </h1>
+ <button class="back-btn" onclick="showSection('history-science-lessons')">
+   ⬅️ العودة إلى دروس التاريخ والجغرافيا
+ </button>
+ <br><br>
+ <button class="menu-btn">البرازيل: نمو اقتصادي وفوارق اجتماعية صارخة (نموذج دولة نامية صاعدة)</button>
+ <button class="menu-btn">الجزائر في حوض البحر الأبيض المتوسط (علاقات التبادل الاقتصادي والتنمية)</button>
+</div>
+
+ <!-- صفحة ملخصات التاريخ والجغرافيا -->
+ <div id="history-science-summaries" class="section-page">
+  <h1>📝 ملخصات التاريخ والجغرافيا</h1>
+  <button class="back-btn"onclick="showSection('history-subject')">
+   ⬅️ العودة إلى مادة التاريخ والجغارافيا
+  </button>
+  <br><br>
+  <br><br>
+  دروس مادة التاريـــــــخ
+  <hr><hr>
+  <button class="menu-btn" onclick="showSection('history-science-lessons-unit1')">تطور العالم في ظل القطبية الثنائية (1945 - 1989)</button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('history-science-lessons-unit2')">العمل المسلح ورد فعل الاستعمار (الثورة الجزائرية 1954 - 1962)</button>
+  <button class="menu-btn" onclick="showSection('history-science-lessons-unit3')">العالم الثالث بين تراجع الاستعمار التقليدي واستمرار حركة التحرر</button>
+  <br><br>
+  دروس مادة الجغرافيـــــــا 
+  <hr><hr>
+  <button class="menu-btn" onclick="showSection('history-science-lessons-unit4')">واقع الاقتصاد العالمي </button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('history-science-lessons-unit5')">القوى الاقتصادية الكبرى</button>
+  <button class="menu-btn" onclick="showSection('history-science-lessons-unit6')">علاقات التنمية والتبادل بين دول الشمال والجنوب</button>
+ </div>
+ <!-- صفحة تمارين التاريخ والجغرافيا -->
+ <div id="history-science-exercises" class="section-page">
+  <h1>🎯 تمارين التاريخ والجغرافيا</h1>
+  <button class="back-btn" onclick="showSection('history-subject')">
+   ⬅️ العودة إلى مادة التاريخ والجغرافيا
+  </button>
+  <br><br>
+  <br><br>
+  دروس مادة التاريـــــــخ
+  <hr><hr>
+  <button class="menu-btn" onclick="showSection('history-science-lessons-unit1')">تطور العالم في ظل القطبية الثنائية (1945 - 1989)</button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('history-science-lessons-unit2')">العمل المسلح ورد فعل الاستعمار (الثورة الجزائرية 1954 - 1962)</button>
+  <button class="menu-btn" onclick="showSection('history-science-lessons-unit3')">العالم الثالث بين تراجع الاستعمار التقليدي واستمرار حركة التحرر</button>
+  <br><br>
+  دروس مادة الجغرافيـــــــا 
+  <hr><hr>
+  <button class="menu-btn" onclick="showSection('history-science-lessons-unit4')">واقع الاقتصاد العالمي </button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('history-science-lessons-unit5')">القوى الاقتصادية الكبرى</button>
+  <button class="menu-btn" onclick="showSection('history-science-lessons-unit6')">علاقات التنمية والتبادل بين دول الشمال والجنوب</button>
+ </div>
+ <!-- صفحة مواضيع البكالوريا والحلول النموذجية --> 
+ <div id="history-science-bac" class="section-page">
+  <h1>📄 مواضيع البكالوريا والحلول النموذجية</h1>
+  <button class="back-btn"onclick="showSection('history-subject')">
+   ⬅️ العودة إلى مادة التاريخ والجغرافيا
+  </button>
+  <br><br>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-histoire-2026.pdf')">📘 بكالوريا 2026 (الموضوع والتصحيح)</button>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-histoire-2025.pdf')">📘 بكالوريا 2025 (الموضوع والتصحيح)</button>
+  <br><br>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-histoire-2024.pdf')">📘 بكالوريا 2024 (الموضوع والتصحيح)</button>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-histoire-2023.pdf')">📘 بكالوريا 2023 (الموضوع والتصحيح)</button>
+  <br><br>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-histoire-2022.pdf')">📘 بكالوريا 2022 (الموضوع والتصحيح)</button>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-histoire-2021.pdf')">📘 بكالوريا 2021 (الموضوع والتصحيح)</button>
+  <br><br>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-histoire-2020.pdf')">📘 بكالوريا 2020 (الموضوع والتصحيح)</button>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-histoire-2019.pdf')">📘 بكالوريا 2019 (الموضوع والتصحيح)</button>
+  <br><br>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-histoire-2018.pdf')">📘 بكالوريا 2018 (الموضوع والتصحيح)</button>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-histoire-2017.pdf')">📘 بكالوريا 2017 (الموضوع والتصحيح)</button>
+  <br><br>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-histoire-2016.pdf')">📘 بكالوريا 2016 (الموضوع والتصحيح)</button>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-histoire-2015.pdf')">📘 بكالوريا 2015 (الموضوع والتصحيح)</button>
+ </div>
+ <!-- محتوى مادة الفلسفة -->
+  <div id="philosophy-subject" class="section-page">
+  <h1>مادة الفلسفة 🤔  </h1>
+  <button class="back-btn" onclick="showSection('science')">
+  ⬅️ العودة إلى شعبة علوم تجريبية
+  </button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('philosophy-science-lessons')">📚 الدروس</button>
+  <button class="menu-btn" onclick="showSection('philosophy-science-summaries')">📝 الملخصات</button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('philosophy-science-exercises')">🎯 التمارين</button>
+  <button class="menu-btn" onclick="showSection('philosophy-science-bac')">📄 مواضيع وحلول البكالوريا</button>
+  <br><br>
+ </div>
+ <!-- صفحة دروس الفلسفة -->
+<div id="philosophy-science-lessons" class="section-page">
+ <h1>📚 دروس الفلسفة</h1>
+ <button class="back-btn" onclick="showSection('philosophy-subject')">
+   ⬅️ العودة إلى مادة الفلسفة
+ </button>
+ <br><br>
+ <button class="menu-btn" onclick="showSection('philosophy-science-lessons-unit1')">السؤال بين المشكلة والإشكالية</button>
+ <button class="menu-btn" onclick="showSection('philosophy-science-lessons-unit2')">فلسفة الرياضيات</button>
+ <br><br>
+ <button class="menu-btn" onclick="showSection('philosophy-science-lessons-unit3')">علوم المادة الجامدة والمادة الحية</button>
+ <button class="menu-btn" onclick="showSection('philosophy-science-lessons-unit4')">الحرية والمسؤولية</button>
+</div>
+<!-- صفحة دروس السؤال بين المشكلة والإشكالية -->
+<div id="philosophy-science-lessons-unit1" class="section-page">
+ <h1> السؤال بين المشكلة والإشكالية </h1>
+ <button class="back-btn" onclick="showSection('philosophy-science-lessons')">
+   ⬅️ العودة إلى دروس الفلسفة
+ </button>
+ <br><br>
+ <button class="menu-btn">مدخل إلى الإشكالية الأولى: في السؤال بين المشكلة والإشكالية</button>
+ <button class="menu-btn">المشكلة الفلسفية والإشكالية الفلسفية (المفهوم والفروقات وعلاقة التداخل)</button>
+ <br><br>
+ <button class="menu-btn">السؤال العلمي والسؤال الفلسفي (دراسة مقارنة بين العلم والفلسفة)</button>
+</div>
+<!-- صفحة دروس فلسفة الرياضيات -->
+<div id="philosophy-science-lessons-unit2" class="section-page">
+ <h1> فلسفة الرياضيات </h1>
+ <button class="back-btn" onclick="showSection('philosophy-science-lessons')">
+   ⬅️ العودة إلى دروس الفلسفة
+ </button>
+ <br><br>
+ <button class="menu-btn">أصل المفاهيم الرياضية (بين المذهب العقلي الفطري والمذهب التجريبي الحسي)</button>
+ <button class="menu-btn">اليقين الرياضي (بين الكلاسيكي في ظل البديهيات والحديث في ظل الأكسيوماتيك)</button>
+ <br><br>
+ <button class="menu-btn">قيمة وأهمية الرياضيات وعلاقتها بالعلوم الطبيعية والواقعية</button>
+</div>
+<!-- صفحة دروس علوم المادة الجامدة والمادة الحية -->
+<div id="philosophy-science-lessons-unit3" class="section-page">
+ <h1> علوم المادة الجامدة والمادة الحية </h1>
+ <button class="back-btn" onclick="showSection('philosophy-science-lessons')">
+   ⬅️ العودة إلى دروس الفلسفة
+ </button>
+ <br><br>
+ <button class="menu-btn">الحتمية واللاّحتمية في الفيزياء (بين الفيزياء الكلاسيكية والفيزياء المعاصرة)</button>
+ <button class="menu-btn">التجريب في علوم المادة الحية (إشكالية تطبيق المنهج التجريبي على البيولوجيا)</button>
+ <br><br>
+ <button class="menu-btn">الفروق الجوهرية بين المادة الجامدة والمادة الحية والعوائق الابستمولوجية</button>
+</div>
+<!-- صفحة دروس الحرية والمسؤولية -->
+<div id="philosophy-science-lessons-unit4" class="section-page">
+ <h1> الحرية والمسؤولية </h1>
+ <button class="back-btn" onclick="showSection('philosophy-science-lessons')">
+   ⬅️ العودة إلى دروس الفلسفة
+ </button>
+ <br><br>
+ <button class="menu-btn">الحرية الإنسانية (بين الإثبات والنفـي في ظل الحتميات والدوافع)</button>
+ <button class="menu-btn">العلاقة بين الحرية والمسؤولية (هل الحرية شرط للمسؤولية أم المسؤولية شرط للحرية؟)</button>
+ <br><br>
+ <button class="menu-btn">الجزاء والعقاب (بين النظرية العقلية الأخلاقية والنظرية الوضعية الاجتماعية)</button>
+</div>
+ <!-- صفحة ملخصات الفلسفة -->
+ <div id="philosophy-science-summaries" class="section-page">
+  <h1>📝 ملخصات الفلسفة</h1>
+  <button class="back-btn"onclick="showSection('philosophy-subject')">
+   ⬅️ العودة إلى مادة الفلسفة
+  </button>
+  <br><br>
+  <button class="menu-btn">السؤال بين المشكلة والإشكالية</button>
+ <button class="menu-btn">فلسفة الرياضيات</button>
+ <br><br>
+ <button class="menu-btn">علوم المادة الجامدة والمادة الحية</button>
+ <button class="menu-btn"> الحرية والمسؤولية</button>
+ </div>
+ <!-- صفحة تمارين الفلسفة -->
+ <div id="philosophy-science-exercises" class="section-page">
+  <h1>🎯 تمارين الفلسفة</h1>
+  <button class="back-btn" onclick="showSection('philosophy-subject')">
+   ⬅️ العودة إلى مادة الفلسفة
+  </button>
+  <br><br>
+  <button class="menu-btn">السؤال بين المشكلة والإشكالية</button>
+ <button class="menu-btn">فلسفة الرياضيات</button>
+ <br><br>
+ <button class="menu-btn">علوم المادة الجامدة والمادة الحية</button>
+ <button class="menu-btn"> الحرية والمسؤولية</button>
+ </div>
+ <!-- صفحة مواضيع البكالوريا والحلول النموذجية --> 
+ <div id="philosophy-science-bac" class="section-page">
+  <h1>📄 مواضيع البكالوريا والحلول النموذجية</h1>
+  <button class="back-btn"onclick="showSection('philosophy-subject')">
+   ⬅️ العودة إلى مادة الفلسفة
+  </button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2026</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2026</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2025</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2025</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2024</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2024</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2023</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2023</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2022</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2022</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2021</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2021</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2020</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2020</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2019</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2019</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2018</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2018</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2017</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2017</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2016</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2016</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2015</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2015</button>
+  <br><br>
+ </div>
+ <!-- محتوى مادة اللغة الإنجليزية -->
+  <div id="english-subject" class="section-page">
+  <h1>مادة اللغة الإنجليزية 🇬🇧  </h1>
+  <button class="back-btn" onclick="showSection('science')">
+  ⬅️ العودة إلى شعبة علوم تجريبية
+  </button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('english-science-lessons')">📚 الدروس</button>
+  <button class="menu-btn" onclick="showSection('english-science-summaries')">📝 الملخصات</button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('english-science-exercises')">🎯 التمارين</button>
+  <button class="menu-btn" onclick="showSection('english-science-bac')">📄 مواضيع وحلول البكالوريا</button>
+  <br><br>
+ </div>
+ <!-- صفحة دروس الانجليزية -->
+<div id="english-science-lessons" class="section-page">
+ <h1>📚 دروس الانجليزية</h1>
+ <button class="back-btn" onclick="showSection('english-subject')">
+  ⬅️ العودة إلى مادة الانجليزية
+ </button>
+ <br><br>
+ <button class="menu-btn" onclick="showSection('english-science-lessons-unit1')">Unit 1: Ethics in Business</button>
+ <br><br>
+ <button class="menu-btn" onclick="showSection('english-science-lessons-unit2')">Unit 2: Safety First (Ill-Gotten Gains Do No Good)</button>
+ <br><br>
+ <button class="menu-btn" onclick="showSection('english-science-lessons-unit3')">Unit 3: Astronomy and Solar System (It's a Giant Leap for Mankind)</button>
+</div>
+<!-- صفحة دروس الوحدة الأولى إنجليزي -->
+<div id="english-science-lessons-unit1" class="section-page">
+ <h1> Unit 1: Ethics in Business </h1>
+ <button class="back-btn" onclick="showSection('english-science-lessons')">
+   ⬅️ العودة إلى دروس الانجليزية
+ </button>
+ <br><br>
+ <button class="menu-btn">Grammar: Expressing Wish and Regret (I wish / If only)</button>
+ <button class="menu-btn">Grammar: Providing that, Provided that, and As long as</button>
+ <br><br>
+ <button class="menu-btn">Grammar: Expressing Cause and Effect (So... that / Such... that)</button>
+ <button class="menu-btn">Vocabulary: Fighting Corruption, Bribery, and Counterfeiting</button> 
+ <br><br>
+ <button class="menu-btn">Pronunciation: Final -ed pronunciation & Syllable stress</button>
+</div>
+<!-- صفحة دروس الوحدة الثانية إنجليزي -->
+<div id="english-science-lessons-unit2" class="section-page">
+ <h1> Unit 2: Safety First </h1>
+ <button class="back-btn" onclick="showSection('english-science-lessons')">
+   ⬅️ العودة إلى دروس الانجليزية
+ </button>
+ <br><br>
+ <button class="menu-btn">Grammar: Expressing Advice (Should, Ought to, Had better)</button>
+ <button class="menu-btn">Grammar: Expressing Obligation and Prohibition (Must / Mustn't)</button>
+ <br><br>
+ <button class="menu-btn">Grammar: Conditionals (Type 1 and Type 2) & Passive Voice</button>
+ <button class="menu-btn">Vocabulary: Consumer Products, Advertising, and Fast Food</button> 
+ <br><br>
+ <button class="menu-btn">Pronunciation: Silent letters & Final -s pronunciation</button>
+</div>
+<!-- صفحة دروس الوحدة الثالثة إنجليزي -->
+<div id="english-science-lessons-unit3" class="section-page">
+ <h1> Unit 3: Astronomy and Solar System </h1>
+ <button class="back-btn" onclick="showSection('english-science-lessons')">
+   ⬅️ العودة إلى دروس الانجليزية
+ </button>
+ <br><br>
+ <button class="menu-btn">Grammar: Comparatives and Superlatives (Adjectives & Adverbs)</button>
+ <button class="menu-btn">Grammar: Expressing Condition with 'If' (Type 0 and Type 3)</button>
+ <br><br>
+ <button class="menu-btn">Grammar: Modals of Certainty and Possibility (Must, Can't, May, Might)</button>
+ <button class="menu-btn">Vocabulary: Space Exploration, Planets, Satellites, and Galaxies</button> 
+ <br><br>
+ <button class="menu-btn">Pronunciation: Word Stress in multi-syllable words & Intonation</button>
+</div>
+<!-- صفحة ملخصات الانجليزية -->
+<div id="english-science-summaries" class="section-page">
+ <h1>📝 ملخصات الانجليزية</h1>
+ <button class="back-btn"onclick="showSection('english-subject')">
+  ⬅️ العودة إلى مادة الانجليزية
+ </button>
+ <br><br>
+ <button class="menu-btn"> Ethics in Business</button>
+ <br><br>
+ <button class="menu-btn"> Safety First</button>
+ <br><br>
+ <button class="menu-btn"> Astronomy and Solar System</button>
+</div>
+<!-- صفحة تمارين الانجليزية -->
+<div id="english-science-exercises" class="section-page">
+ <h1>🎯 تمارين الانجليزية</h1>
+ <button class="back-btn" onclick="showSection('english-subject')">
+  ⬅️ العودة إلى مادة الانجليزية
+ </button>
+ <br><br>
+ <button class="menu-btn"> Ethics in Business</button>
+ <br><br>
+ <button class="menu-btn"> Safety First</button>
+ <br><br>
+ <button class="menu-btn"> Astronomy and Solar System</button>
+</div>
+ <!-- صفحة مواضيع البكالوريا والحلول النموذجية --> 
+ <div id="english-science-bac" class="section-page">
+  <h1>📄 مواضيع البكالوريا والحلول النموذجية</h1>
+  <button class="back-btn"onclick="showSection('english-subject')">
+   ⬅️ العودة إلى مادة الانجليزية
+  </button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2026</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2026</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2025</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2025</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2024</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2024</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2023</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2023</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2022</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2022</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2021</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2021</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2020</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2020</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2019</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2019</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2018</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2018</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2017</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2017</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2016</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2016</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2015</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2015</button>
+ </div>
+ <!-- محتوى مادة اللغة الفرنسية -->
+  <div id="french-subject" class="section-page">
+  <h1>مادة اللغة الفرنسية 🇫🇷  </h1>
+  <button class="back-btn" onclick="showSection('science')">
+  ⬅️ العودة إلى شعبة علوم تجريبية
+  </button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('french-science-lessons')">📚 الدروس</button>
+  <button class="menu-btn" onclick="showSection('french-science-summaries')">📝 الملخصات</button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('french-science-exercises')">🎯 التمارين</button>
+  <button class="menu-btn" onclick="showSection('french-science-bac')">📄 مواضيع البكالوريا</button>
+  <br><br>
+ </div>
+ <!-- صفحة دروس الفرنسية -->
+ <div id="french-science-lessons" class="section-page">
+  <h1>📚 دروس الفرنسية</h1>
+  <button class="back-btn" onclick="showSection('french-subject')">
+    ⬅️ العودة إلى مادة الفرنسية
+  </button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('french-science-lessons-unit1')">Projet 1: Le texte historique (Informer d'un fait d'histoire)</button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('french-science-lessons-unit2')">Projet 2: Le débat d'idées (Confronter des points de vue)</button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('french-science-lessons-unit3')">Projet 3: L'appel (Inciter à agir / L'exhortation)</button>
+ </div>
+ <!-- صفحة دروس الوحدة الأولى فرنسية -->
+ <div id="french-science-lessons-unit1" class="section-page">
+  <h1> Projet 1: Le texte historique </h1>
+  <button class="back-btn" onclick="showSection('french-science-lessons')">
+    ⬅️ العودة إلى دروس الفرنسية
+  </button>
+  <br><br>
+  <button class="menu-btn">Grammaire: L'objectivité et la subjectivité de l'historien (La présence de l'auteur)</button>
+  <button class="menu-btn">Grammaire: Le passif objectif & Le discours direct et indirect</button>
+  <br><br>
+  <button class="menu-btn">Lexique: Le champ lexical du témoignage, de la guerre et de la colonisation</button>
+  <button class="menu-btn">Technique d'expression: Le compte rendu objectif du texte historique</button> 
+ </div>
+ <!-- صفحة دروس الوحدة الثانية فرنسية -->
+ <div id="french-science-lessons-unit2" class="section-page">
+  <h1> Projet 2: Le débat d'idées </h1>
+  <button class="back-btn" onclick="showSection('french-science-lessons')">
+    ⬅️ العودة إلى دروس الفرنسية
+  </button>
+  <br><br>
+  <button class="menu-btn">Grammaire: Les rapports logiques (La cause, la conséquence, l'opposition et la concession)</button>
+  <button class="menu-btn">Grammaire: Les verbes d'opinion et l'expression de la certitude / du doute</button>
+  <br><br>
+  <button class="menu-btn">Lexique: Les lexiques mélioratif et péjoratif (L'argumentation)</button>
+  <button class="menu-btn">Technique d'expression: Le compte rendu objectif du débat d'idées</button> 
+ </div>
+ <!-- صفحة دروس الوحدة الثالثة فرنسية -->
+ <div id="french-science-lessons-unit3" class="section-page">
+  <h1> Projet 3: L'appel (L'exhortation) </h1>
+  <button class="back-btn" onclick="showSection('french-science-lessons')">
+    ⬅️ العودة إلى دروس الفرنسية
+  </button>
+  <br><br>
+  <button class="menu-btn">Grammaire: L'expression du but et de la condition (Pour, afin que, si)</button>
+  <button class="menu-btn">Grammaire: Le mode Impératif et le Subjonctif présent (L'injonction)</button>
+  <br><br>
+  <button class="menu-btn">Structure de l'appel: La partie expositive, argumentative et exhortative</button>
+  <button class="menu-btn">Technique d'expression: Le compte rendu objectif de l'appel</button> 
+ </div>
+ <!-- صفحة ملخصات الفرنسية -->
+ <div id="french-science-summaries" class="section-page">
+  <h1>📝 ملخصات الفرنسية</h1>
+  <button class="back-btn"onclick="showSection('french-subject')">
+   ⬅️ العودة إلى مادة الفرنسية
+  </button>
+  <br><br>
+  <button class="menu-btn">Le texte historique</button>
+  <br><br>
+  <button class="menu-btn">Le débat d'idées</button>
+  <br><br>
+  <button class="menu-btn">L'appel</button>
+ </div>
+ <!-- صفحة تمارين الفرنسية -->
+ <div id="french-science-exercises" class="section-page">
+  <h1>🎯 تمارين الفرنسية</h1>
+  <button class="back-btn" onclick="showSection('french-subject')">
+   ⬅️ العودة إلى مادة الفرنسية
+  </button>
+  <br><br>
+  <button class="menu-btn">Le texte historique</button>
+  <br><br>
+  <button class="menu-btn">Le débat d'idées</button>
+  <br><br>
+  <button class="menu-btn">L'appel</button>>
+ </div>
+ <!-- صفحة مواضيع البكالوريا والحلول النموذجية --> 
+ <div id="french-science-bac" class="section-page">
+  <h1>📄 مواضيع البكالوريا والحلول النموذجية</h1>
+  <button class="back-btn"onclick="showSection('french-subject')">
+   ⬅️ العودة إلى مادة الفرنسية
+  </button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2026</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2026</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2025</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2025</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2024</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2024</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2023</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2023</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2022</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2022</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2021</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2021</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2020</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2020</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2019</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2019</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2018</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2018</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2017</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2017</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2016</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2016</button>
+  <br><br>
+  <button class="menu-btn">📄 موضوع بكالوريا 2015</button>
+  <button class="menu-btn">✅ تصحيح بكالوريا 2015</button>
+ </div>
+ <!-- محتوى مادة الأمازيغية -->
+  <div id="tamazight-subject" class="section-page">
+  <h1> مادة الأمازيغية  </h1>
+  <button class="back-btn" onclick="showSection('science')">
+  ⬅️ العودة إلى شعبة علوم تجريبية
+  </button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('tamazight-science-lessons')">📚 الدروس</button>
+  <button class="menu-btn" onclick="showSection('tamazight-science-summaries')">📝 الملخصات</button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('tamazight-science-exercises')">🎯 التمارين</button>
+  <button class="menu-btn" onclick="showSection('tamazight-science-bac')">📄 مواضيع وحلول البكالوريا</button>
+ </div>
+ <!-- صفحة دروس الأمازيغية  -->
+ <div id="tamazight-science-lessons" class="section-page">
+  <h1> دروس الأمازيغية  </h1>
+  <button class="back-btn" onclick="showSection('tamazight-subject')">
+    ⬅️ العودة إلى مادة الأمازيغية
+  </button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('tamazight-science-lessons-unit1')">Asenfar 1: Tasekla d umezruy (الأدب والتاريخ)</button>
+  <button class="menu-btn" onclick="showSection('tamazight-science-lessons-unit2')">Asenfar 2: Tirmisin n tsnasmit (أنشطة الترجمة والتعبير)</button>
+  <br><br>
+  <button class="menu-btn" onclick="showSection('tamazight-science-lessons-unit3')">Asenfar 3: Idles d tsnfleft (الثقافة والإبداع العلمي)</button>
+ </div>
+ <!-- صفحة دروس المشروع الأول أمازيغية -->
+ <div id="tamazight-science-lessons-unit1" class="section-page">
+  <h1> Asenfar 1: Tasekla d umezruy (الأدب والتاريخ) </h1>
+  <button class="back-btn" onclick="showSection('tamazight-science-lessons')">
+    ⬅️ العودة إلى دروس الأمازيغية
+  </button>
+  <br><br>
+  <button class="menu-btn">Tullist tamatut d uḍris n umezruy (القصة القصيرة العامة والنص التاريخي)</button>
+  <button class="menu-btn">Amgired gar iḍrisen n tsekla (المقارنة بين النصوص الأدبية المختلفة)</button>
+  <br><br>
+  <button class="menu-btn">Tasnilest d tjerrumt: Taseddast d tsnislemtt (اللسانيات وقواعد اللغة والتركيب)</button>
+ </div>
+ <!-- صفحة دروس المشروع الثاني أمازيغية -->
+ <div id="tamazight-science-lessons-unit2" class="section-page">
+  <h1> Asenfar 2: Tirmisin n tsnasmit (أنشطة الترجمة والتعبير) </h1>
+  <button class="back-btn" onclick="showSection('tamazight-science-lessons')">
+    ⬅️ العودة إلى دروس الأمازيغية
+  </button>
+  <br><br>
+  <button class="menu-btn">Iḍrisen n usissen d tebṛat (نصوص العرض والرسائل الإدارية والتبليغ)</button>
+  <button class="menu-btn">Tisuqilt n uḍris (تقنيات وآليات ترجمة النصوص العلمية والأدبية)</button>
+  <br><br>
+  <button class="menu-btn">Tajerrumt d usidmer: Allalen n uwelleh (قواعد الصرف والتركيب وأدوات التوجيه)</button>
+ </div>
+ <!-- صفحة دروس المشروع الثالث أمازيغية -->
+ <div id="tamazight-science-lessons-unit3" class="section-page">
+  <h1> Asenfar 3: Idles d tsnfleft (الثقافة والإبداع العلمي) </h1>
+  <button class="back-btn" onclick="showSection('tamazight-science-lessons')">
+    ⬅️ العودة إلى دروس الأمازيغية
+  </button>
+  <br><br>
+  <button class="menu-btn">Tasekla tamensayt: Tasefrait d yinzan (الأدب التقليدي والشفهي، الشعر والحكم)</button>
+  <button class="menu-btn">Inawen n udles d tsandast (الخطابات الثقافية، الحضارية، والبيئية)</button>
+  <br><br>
+  <button class="menu-btn">Amawal d tsenmednut: Asnulfu n imawalan (المصطلحات، التطور اللغوي والإنتاج العلمي)</button>
+ </div>
+ <!-- صفحة ملخصات الأمازيغية -->
+ <div id="tamazight-science-summaries" class="section-page">
+  <h1>📝 ملخصات الأمازيغية</h1>
+  <button class="back-btn"onclick="showSection('tamazight-subject')">
+   ⬅️ العودة إلى مادة الأمازيغية
+  </button>
+  <br><br>
+  <button class="menu-btn">Asenfar 1: Tasekla d umezruy (الأدب والتاريخ)</button>
+  <button class="menu-btn">Tullist tamatut (القصة القصيرة العامة)</button>
+  <br><br>
+  <button class="menu-btn">Amgired gar iḍrisen (المقارنة بين النصوص)</button>
+  <button class="menu-btn">Asenfar 2: Tirmisin n tsnasmit (أنشطة الترجمة والتعبير)</button>
+  <br><br>
+  <button class="menu-btn">Tasnilest d tjerrumt (اللسانيات وقواعد اللغة)</button>
+  <button class="menu-btn">Asenfar 3: Idles d tsnfleft (الثقافة والإبداع العلمي)</button>
+  <br><br>
+  <button class="menu-btn">Tasekla tamensayt (الأدب التقليدي/الشفهي)</button>
+  <button class="menu-btn">Allalen n usissen (وسائل وأدوات العرض والتبليغ)</button>
+  <br><br>
+  <button class="menu-btn">Inawen n udles (الخطابات الثقافية والحضارية)</button>
+ </div>
+ <!-- صفحة تمارين الأمازيغية -->
+ <div id="tamazight-science-exercises" class="section-page">
+  <h1>🎯 تمارين الأمازيغية</h1>
+  <button class="back-btn" onclick="showSection('tamazight-subject')">
+   ⬅️ العودة إلى مادة الأمازيغية
+  </button>
+  <br><br>
+ <button class="menu-btn">Asenfar 1: Tasekla d umezruy (الأدب والتاريخ)</button>
+  <button class="menu-btn">Tullist tamatut (القصة القصيرة العامة)</button>
+  <br><br>
+  <button class="menu-btn">Amgired gar iḍrisen (المقارنة بين النصوص)</button>
+  <button class="menu-btn">Asenfar 2: Tirmisin n tsnasmit (أنشطة الترجمة والتعبير)</button>
+  <br><br>
+  <button class="menu-btn">Tasnilest d tjerrumt (اللسانيات وقواعد اللغة)</button>
+  <button class="menu-btn">Asenfar 3: Idles d tsnfleft (الثقافة والإبداع العلمي)</button>
+  <br><br>
+  <button class="menu-btn">Tasekla tamensayt (الأدب التقليدي/الشفهي)</button>
+  <button class="menu-btn">Allalen n usissen (وسائل وأدوات العرض والتبليغ)</button>
+  <br><br>
+  <button class="menu-btn">Inawen n udles (الخطابات الثقافية والحضارية)</button>
+ </div>
+ <!-- صفحة مواضيع البكالوريا والحلول النموذجية --> 
+ <div id="tamazight-science-bac" class="section-page">
+  <h1>📄 مواضيع البكالوريا والحلول النموذجية</h1>
+  <button class="back-btn"onclick="showSection('tamazight-subject')">
+   ⬅️ العودة إلى مادة الأمازيغية
+  </button>
+  <br><br>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-tamazight-2026.pdf')">📘 بكالوريا 2026 (الموضوع والتصحيح)</button>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-tamazight-2025.pdf')">📘 بكالوريا 2025 (الموضوع والتصحيح)</button>
+  <br><br>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-tamazight-2024.pdf')">📘 بكالوريا 2024 (الموضوع والتصحيح)</button>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-tamazight-2023.pdf')">📘 بكالوريا 2023 (الموضوع والتصحيح)</button>
+  <br><br>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-tamazight-2022.pdf')">📘 بكالوريا 2022 (الموضوع والتصحيح)</button>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-tamazight-2021.pdf')">📘 بكالوريا 2021 (الموضوع والتصحيح)</button>
+  <br><br>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-tamazight-2020.pdf')">📘 بكالوريا 2020 (الموضوع والتصحيح)</button>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-tamazight-2019.pdf')">📘 بكالوريا 2019 (الموضوع والتصحيح)</button>
+  <br><br>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-tamazight-2018.pdf')">📘 بكالوريا 2018 (الموضوع والتصحيح)</button>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-tamazight-2017.pdf')">📘 بكالوريا 2017 (الموضوع والتصحيح)</button>
+  <br><br>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-tamazight-2016.pdf')">📘 بكالوريا 2016 (الموضوع والتصحيح)</button>
+  <button class="menu-btn" onclick="window.open('bac-science/dzexams-bac-tamazight-2015.pdf')">📘 بكالوريا 2015 (الموضوع والتصحيح)</button>
+ </div>
 
