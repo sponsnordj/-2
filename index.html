@@ -192,29 +192,66 @@ placeholder="اكتب تعليقك هنا..." required></textarea>
    ⬅️ العودة إلى دروس العلوم الطبيعية
  </button>
  <br><br>
- 
- <!-- الأزرار مبرمجة ومربوطة بالدروس الرسمية للأستاذة كتفي شريف زينة بنمط الامتداد المباشر الكامل -->
- <button class="menu-btn" onclick="watchFullScreen('https://www.youtube.com/watch?v=BuInL34p8zY&t=18241s')">المكتسبات القبلية</button>
- <button class="menu-btn" onclick="watchFullScreen('https://www.youtube.com/watch?v=t8Osb7LHlbU')">الاستنساخ (ARNm)</button>
+ <button class="menu-btn" onclick="showSection('science-science-lessons-unit1-prior1')">المكتسبات القبلية</button>
+ <button class="menu-btn">الاستنساخ (ARNm)</button>
  <br><br>
- <button class="menu-btn" onclick="watchFullScreen('https://www.youtube.com/watch?v=J_mD6JXXwxA')">الترجمة (ARNt والريبوزومات)</button>
- <button class="menu-btn" onclick="watchFullScreen('https://www.youtube.com/watch?v=6Swh7g8MOLU')">مقر تركيب البروتين</button> 
+ <button class="menu-btn">الترجمة (ARNt والريبوزومات)</button>
+ <button class="menu-btn">مقر تركيب البروتين</button> 
 </div>
 
-<script>
-// دالة لتجاوز حظر المتصفحات وتشغيل الفيديو فوراً بملء عرض الشاشة الكامل للمستخدم
-function watchFullScreen(lessonUrl) {
-    // فتح الرابط المباشر للدرس في نافذة منبثقة مستقلة مهيأة بأبعاد الشاشة القصوى للجهاز
-    const screenWidth = window.screen.availWidth;
-    const screenHeight = window.screen.availHeight;
-    
-    window.open(
-        lessonUrl, 
-        '_blank', 
-        `width=${screenWidth},height=${screenHeight},top=0,left=0,fullscreen=yes,scrollbars=yes,resizable=yes`
-    );
-}
-</script>
+<!-- صفحة المكتسبات القبلية -->
+<div id="science-science-lessons-unit1-prior1" class="section-page">
+<h1>📚 المكتسبات القبلية</h1>
+<button class="back-btn"
+onclick="showSection('science-science-lessons-unit1')">
+⬅️ العودة إلى دروس آليات تركيب البروتين
+</button>
+<br><br>
+<div class="lesson-card">
+<h2>🎥 الجزء الأول</h2>
+<iframe
+width="100%"
+height="400"
+src="https://www.youtube-nocookie.com/embed/HLlC9MecqfY"
+title="المكتسبات القبلية - الجزء الأول"
+frameborder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+referrerpolicy="strict-origin-when-cross-origin"
+allowfullscreen>
+</iframe>
+</div>
+<br>
+<div class="lesson-card">
+<h2>🎥 الجزء الثاني</h2>
+<iframe
+width="100%"
+height="400"
+src="https://www.youtube.com/embed/VIDEO2"
+allowfullscreen>
+</iframe>
+</div>
+<br>
+<div class="lesson-card">
+<h2>🎥 الجزء الثالث</h2>
+<iframe
+width="100%"
+height="400"
+src="https://www.youtube.com/embed/VIDEO3"
+allowfullscreen>
+</iframe>
+</div>
+<br>
+<div class="lesson-card">
+<h2>🎥 الجزء الرابع</h2>
+<iframe
+width="100%"
+height="400"
+src="https://www.youtube.com/embed/VIDEO4"
+allowfullscreen>
+</iframe>
+</div>
+</div>
+ 
 <!-- صفحة دروس العلاقة بين بنية ووظيفة البروتين  -->
    <div id="science-science-lessons-unit2" class="section-page">
     <h1> دروس العلاقة بين بنية ووظيفة البروتين  </h1>
